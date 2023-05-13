@@ -1,0 +1,104 @@
+body{
+    background : beige;
+    color: black;
+} 
+.principal{
+    background-color: beige;
+    display:flex;
+    flex-direction: row;
+  
+}
+
+.form{
+    background-color: beige;
+    display:flex;
+    width: 450px;
+
+
+}
+.form-body{
+    width: 400px;
+    height: 500px;
+    min-width: 400px;
+    border-radius:10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border:solid 1px black;
+    margin: 20px;
+    background-color: burlywood;
+    align-items: center;
+  }  
+.form-body input{
+    display: block; 
+    margin: auto;
+    margin-top: 25px;
+    height: 30px;
+    width: 85%;
+    padding-left: 10px;
+     border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    border-radius: 5px;
+    font-size:1rem;
+    outline: none;
+}
+
+table tr td {
+    border: 1px solid #000;
+  }
+  
+  table {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px 50px 30px 50px;
+    background-color: beige;
+    
+  }
+      
+  th,td{
+    padding: 20px;
+    font-family:  'Times New Roman';
+    color:var(--auxiliar);
+   
+}
+
+    thead{
+       
+        background-color: #256D85;
+        border-bottom: solid 5px #0F362D;
+        color: White;
+    }
+
+    tr:nth-child(even){
+        background-color: rgb(241, 241, 233);
+        font-family: 'Billabong', 'san-serif';
+    }
+    
+    tr:hover td{
+        background-color: #fffd9b;
+        color: black;
+    }
+
+    button {
+        background-color: black;
+        border-radius: 10px;
+        border: none;
+        padding: 10px 10px;
+        color: white;
+        margin: 20px;
+      }
+      
+      /* Asegúrate de que el texto del botón tenga suficiente contraste con el fondo */
+      button {
+        color: white;
+      }
+      
+      /* Si el color de fondo es oscuro, puedes ajustar el contraste de la fuente */
+      button {
+        filter: contrast(120%);
+      }
+
+      
